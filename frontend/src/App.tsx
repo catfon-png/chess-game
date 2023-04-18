@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Chessboard } from './components/Chessboard/Chessboard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>A chess game</h1>
+      <Chessboard />
     </div>
   );
 }

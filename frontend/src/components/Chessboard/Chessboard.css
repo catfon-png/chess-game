@@ -1,0 +1,19 @@
+.game-board {
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.black {
+    background-color:black;
+}
+
+.one-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
